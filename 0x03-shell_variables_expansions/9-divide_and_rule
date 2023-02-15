@@ -1,2 +1,2 @@
 #!/bin/bash
-echo'export $(($POWER \ $DEVIDE))'
+echo "$(bc <<< "scale=2; $POWER / $DIVIDE")"
