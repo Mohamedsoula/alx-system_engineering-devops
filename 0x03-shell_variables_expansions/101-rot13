@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Hello, world!" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | { read encoded; echo $encoded; } | tr 'A-Za-z' 'N-ZA-Mn-za-m'
